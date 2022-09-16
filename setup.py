@@ -95,6 +95,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
     description='Synthetic Data Generation for tabular, relational and time series data.',
     extras_require={
@@ -110,7 +111,7 @@ setup(
     long_description_content_type='text/markdown',
     name='sdv',
     packages=find_packages(include=['sdv', 'sdv.*']),
-    python_requires='>=3.6,<3.10',
+    python_requires='>=3.6,<3.11',
     setup_requires=setup_requires,
     test_suite='tests',
     tests_require=tests_require,
